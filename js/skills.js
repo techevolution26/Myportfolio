@@ -1,4 +1,5 @@
 function animateProgressBars() {
+  
     const progressBars = document.querySelectorAll('.progress');
     const counters = document.querySelectorAll('.counter');
   

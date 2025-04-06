@@ -28,6 +28,7 @@ body {
     right: 0;
     padding: 15px;
     z-index: 1000;
+    margin-right: 10px;
     background: rgba(255, 255, 255, 0);
   }
 
@@ -47,6 +48,7 @@ body {
   .menu-toggle {
     cursor: pointer;
     font-size: 24px;
+
   }.nav-container {
     display: flex;
     justify-content: space-between;
@@ -62,19 +64,18 @@ body {
 }
 
 .nav-container ul {
-    list-style: none; /* Removing default bullet points */
+    list-style: none;
     display: flex;
     gap: 20px;
     padding: 0;
     margin: 0;
+    flex-direction: column;
 }
 
-/* Styling individual list items */
 .nav-container li {
     padding: 10px 15px;
 }
 
-/* Styling links list */
 .nav-container li a {
     text-decoration: none;
     font-size: 16px;

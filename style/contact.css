@@ -44,12 +44,13 @@ body {
 }
 
 .about-nav {
-    position: fixed;
+    position:fixed;
     top: 0;
     right: 0;
     padding: 15px;
+    margin-right: 10px;
     z-index: 1000;
-    background: rgba(255, 255, 255, 0); /* Optional */
+    background: rgba(255, 255, 255, 0);
   }
   
   .navbar {
@@ -59,29 +60,34 @@ body {
     background-color: rgba(255, 255, 255, 0.007);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     display: none;
+
   }
   
   /* Show menu when active */
   .navbar.active {
     display: block;
+
   }
 
-  /* Optional: Style for the menu icon */
   .menu-toggle {
     cursor: pointer;
     font-size: 24px;
-  }.nav-container {
+
+  }
+  .nav-container {
     display: flex;
     justify-content: space-between;
     border-radius: 5px;
     align-items: center;
     padding: 20px;
+    margin: auto;
     background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+
 }
 
 .nav-container ul {
@@ -90,14 +96,15 @@ body {
     gap: 20px;
     padding: 0;
     margin: 0;
+    flex-direction: column;
+
 }
 
-/* Style individual list items */
 .nav-container li {
     padding: 10px 15px;
+
 }
 
-/* Style the links inside the list */
 .nav-container li a {
     text-decoration: none;
     font-size: 16px;
@@ -132,12 +139,6 @@ body {
     text-align: center;
 }
 
-h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: var(--primary-color);
-}
-
 .btn {
     display: inline-block;
     background-color: var(--primary-color);
@@ -154,23 +155,6 @@ h2 {
     transform: scale(1.05);
 }
 
-/*  Header Styles  */
-.header {
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    color: white;
-    text-align: center;
-    padding: 80px 20px;
-}
-
-.header h1 {
-    font-size: 3rem;
-    font-weight: 700;
-}
-
-.header p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-}
 
 .btn-control {
     /* display: inline-block; */
