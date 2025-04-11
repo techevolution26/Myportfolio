@@ -1,6 +1,6 @@
 const hamburger = document.querySelector(".hamburger");
 const menu = document.querySelector(".menu");
-const terminalText = "I'm John Alfred, a Full-stack Developer passionate about clean code and killer UIs.";
+const terminalText = "I'm John Alfred | Full-Stack Engineer focused on scalable architectures, maintainable codebases, and high-impact user interfaces.";
 const typedSpan = document.querySelector(".typed");
 
 hamburger.addEventListener("click", () => menu.classList.toggle("active"));
